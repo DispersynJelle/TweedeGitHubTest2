@@ -11,6 +11,7 @@
         <Button x:Name="btnHello" Content="klik me" HorizontalAlignment="Left" Margin="150,237,0,0" VerticalAlignment="Top" Click="btnHello_Click"/>
         <Label x:Name="lblTeller" Content="0" HorizontalAlignment="Left" Margin="632,55,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnTeller" Content="teller" HorizontalAlignment="Left" Margin="620,158,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="316,158,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
