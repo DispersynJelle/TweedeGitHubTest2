@@ -20,9 +20,16 @@ namespace TweedeGitHubTest
     /// </summary>
     public partial class MainWindow : Window
     {
+        int teller = 0;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            teller++;
+            lblTeller.Content = teller.ToString();
         }
     }
 }
