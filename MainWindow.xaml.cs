@@ -26,6 +26,11 @@ namespace TweedeGitHubTest
             InitializeComponent();
         }
 
+        private void btnHello_Click(object sender, RoutedEventArgs e)
+        {
+            lblHello.Content = "Hello world!";
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             teller++;
